@@ -1,0 +1,122 @@
+body    {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-container   {
+    background-image: url("./images/hanoi1.jpg");
+    background-size: cover ;
+    border-radius: 10%;
+    border: solid black;
+    border-width: 5px;
+    height: 500px;
+    filter: saturate(1.3);
+}
+.title-container    {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.container  {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 1.9;
+}
+.logo   {
+    float: left;
+    width: 14%;
+    height: 9%;
+}
+.topnav {
+    text-align-last: center;
+    display: flex;
+    overflow: hidden;
+    background-color: rgba(250, 9, 9, 0);
+    border-radius: 5px;
+    padding-right: 80px;
+    padding-left: 40px;
+    filter: drop-shadow(14px 14px 16px black);
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+button  {
+    margin-top: 36px;
+    width: 80px;
+    height: 38px;
+    border-radius: 10px;
+    border-color: black;
+}  
+.topnav a:hover {
+    background-color: rgba(221, 221, 221, 0.205);
+    border-radius: 10px;
+}   
+.bodyimg    {
+    margin-left: 240px;
+    margin-top: 150px;
+}
+.input  {
+    float: right;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    float: right;
+    margin-top: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 5% ;
+    border-color: black;
+    border-width: 2px;
+}
+.menu   {
+    margin-left: 20px;
+}   
+.footer-container   {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(24, 158, 255);
+    background-image: linear-gradient(rgb(24, 158, 255),white);
+    max-width: 100%;
+    height: 550px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: double black;
+}
+.footer1    {
+    line-height: 1.5;
+    width: 400px;
+    padding-left: 50px;
+    padding-top: 50px;
+    filter: drop-shadow(14px 14px 16px black);
+}
+.footer2    {
+    line-height: 2.1;
+    margin-left: 520px;
+    margin-top: -220px;
+    width: 350px;
+    filter: drop-shadow(14px 14px 16px black);
+}
+.footer3    {
+    margin-top: -230px;
+    float: right;
+    width: 350px;
+    height: 230px;
+    margin-right: 50px;
+    filter: drop-shadow(14px 14px 16px black);
+}
+
+.footer4    {
+    text-align: center;
+    padding-left: 20px;
+    margin-top: 180px;
+    filter: drop-shadow(14px 14px 16px black);
+}
+.img   {
+    border: double 9px ;
+    border-radius: 10%;
+    filter: drop-shadow(10px 10px 12px black);
+}
